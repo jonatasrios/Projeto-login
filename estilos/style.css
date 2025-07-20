@@ -44,7 +44,10 @@ section#login{
     left: 50%;
     transform: translate(-50%,-50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    
+    transition-timing-function: ease;
 }
+
 #login > div#imagens{
     display: block;
     background: #46235e url(../Imagens/pexels-fotometrozero-31205021.jpg) no-repeat;
