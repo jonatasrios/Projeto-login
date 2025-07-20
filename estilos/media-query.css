@@ -24,17 +24,17 @@
         width: 60%;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (min-width: 769px){
     section#login{
         width: 95vw;
     }
     #login > div#imagens{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
 }
