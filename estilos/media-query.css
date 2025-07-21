@@ -31,18 +31,16 @@
     }
     form> div.campo{
         margin-top: 0px;
-        height: 69px;
+        height: 57px;
     }
     form> div.campo > input{
         padding-bottom: 10px;
-        margin-top: 22px;
+        margin-top: 10px;
     }
     form> input[type="submit"]{
         margin-right: 10px;
     }
-    form > div.butao{
-        margin-right: 1033px;
-    }
+   
 
 }
 @media screen and (min-width: 769px){
@@ -68,8 +66,9 @@
         height: 45px;
         text-align: center;
         padding-top: 5px;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 20px;
     }
     form > input[type="submit"]{
         margin-right: 10px;
