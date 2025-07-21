@@ -36,7 +36,7 @@ main{
 section#login{
     background-color: white;
     width: 255px;
-    height: 500px;
+    height: 510px;
     border-radius: 20px;
     position: absolute;
     overflow: hidden;
@@ -70,12 +70,36 @@ section#login{
 form> div.campo{
     background-color: #8459a1;
     height: 40px;
-    border-radius: 5px;
-    margin: 5px 0px;
+    border-radius: 8px;
+    margin: 10px 10px;
     
 }
 div.campo > label{
     display: none;
+}
+div.campo > span{
+    color: rgb(214, 207, 207);
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo > input{
+    background-color: #accccb;
+    
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    transform: translateY(-10px);
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    padding-top: 23px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+.campo > input:focus-within{
+    background-color: white;
 }
 form > input[type=submit]{
     display: block;
